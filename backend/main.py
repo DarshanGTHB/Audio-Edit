@@ -7,7 +7,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-
+# for echo or reverb
 def clip_and_cast(audio_data):
     return np.clip(audio_data, -32768, 32767).astype(np.int16)
 

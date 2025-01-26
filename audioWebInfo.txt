@@ -1,0 +1,7 @@
+Assignment 1: Audio Editing App
+I have used:
+
+(1). Next.js for the front end
+(2). Flask for the backend
+
+This is a one-page application that provides a simple audio editing feature. You can edit your audio in any order and download the edited version. This is just a utility-based website where you can quickly edit and download your audio
