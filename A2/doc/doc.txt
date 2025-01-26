@@ -1,0 +1,20 @@
+In this project, I've made an ML model which will recognize text in the MNIST dataset of Keras using a Feedforward neural network.
+
+Now, in order to improve efficiency, I think to go with hyperparameter tuning. So these are the methods according to me that I could find over the internet:
+
+
+    (1). Manual Tuning: 
+            Best for small hyperparameter spaces and limited resources; ideal for simple adjustments like learning rate or dropout.
+
+    (2). Grid Search: 
+            Systematic exploration of all combinations; effective for small spaces but computationally expensive for larger ones.
+
+    (3). Random Search: 
+            Efficient for large spaces; explores randomly to find good combinations faster than Grid Search.
+
+    (4). Bayesian Optimization: 
+            Advanced, resource-intensive method for optimizing complex spaces with minimal manual effort.
+
+
+
+In this, I thought Grid Search as parameters are less in number, which will calculate efficiency by trying all possible combinations in the grid parameter list. Then, whichever tuple of parameters gives max efficiency, that I'll use as final.
